@@ -5,7 +5,7 @@
   "description": "Curriculum Vitae",
   "theme_color": "#00bcd4",
   "background_color": "#00bcd4",
-  "display": "standlone",
+  "display": "standalone",
   "orientation": "portrait",
   "scope": "./",
   "start_url": "./",
