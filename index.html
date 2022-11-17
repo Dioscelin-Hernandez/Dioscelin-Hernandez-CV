@@ -23,12 +23,18 @@
 
 		<link rel='manifest' href='./manifest.json'>
 
-		<script> 
+		<script>
+			if ('serviceWorker' in navigator) {
+			  window.addEventListener('load', () => {
+				navigator.serviceWorker.register('./SW.js')
+				  .then((reg) => {
+					console.log('Service worker registered.', reg);
+				  });
+			  });
+			}
+		  </script>
 
-		if("serviceWorker" in navigator){
-			navigator.serviceWorker.register(SW.js);
-		}
-		</script>
+		
 
 <!-- Default-JavaScript-File -->
 
