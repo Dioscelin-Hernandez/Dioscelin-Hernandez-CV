@@ -55,7 +55,6 @@ a:focus, a:hover {
 	    position: relative;
 }
 .agileinfo-dot{
-    background: url(../images/dott.png)repeat 0px 0px;
     background-size: 2px;
     -webkit-background-size: 2px;
     -moz-background-size: 2px;
@@ -723,7 +722,6 @@ i.fa.fa-users,i.fa.fa-code,i.fa.fa-laptop{
 }
 /*-- skills --*/
 .skills{
- background: url(../images/skill2.jpg) no-repeat 0px 0px;
     background-size: cover;
 	min-height:500px;
 	}
