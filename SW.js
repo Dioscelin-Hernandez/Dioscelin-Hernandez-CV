@@ -1,13 +1,14 @@
 'use strict';
 //asignar un nombre y versión al cache
-const CACHE_NAME = 'Erick CV',
+const CACHE_NAME = 'Dioscelin CV',
   urlsToCache = [
     './',
-    'https://erickmtz06.github.io/Erick_Martinez_CV/index.html',
-    './assets/vendor/bootstrap/css/bootstrap.css',
-    './sw.js',
-    './assets/img/EM-icon.png',
-    './assets/img/apple_touch_img.png'
+    'https://dioscelin-hernandez.github.io/Dioscelin-Hernandez-CV/index.html',
+    './css/bootstrap.min.css',
+    './css/font-awesome.min.css',
+    './css/style.css',
+    './SW.js',
+    './images/dh.png'
   ]
 
 //durante la fase de instalación, generalmente se almacena en caché los activos estáticos
